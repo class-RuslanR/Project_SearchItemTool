@@ -1,27 +1,19 @@
 ﻿#include "pch.h"
 #include <iostream>
-#include "binTree.h"
-
+//#include "binTree.h"
+#include "DataBaseTool.h"
 
 using namespace std;
+//using namespace BaseTool;
 
 int main()
 {
 	setlocale(LC_ALL, "ru");
 
-	BinTree <int> tree;
-	int count, element;
-
-	cout << "Введите количество элементов в дереве: ";
-	cin >> count;
-	cout << "\n";
-
-	cout << "Введите элементы дерева: " << endl;
-	{
-		cin >> element;
-		tree.AddElement(element);
-	}
-
+	BaseTool::Tool diam;
+	diam.set_diam(10);
+	diam.get_diam();
+	diam.show_diam();
 
 	system("pause");
 	return 0;

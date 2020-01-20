@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="binTree.h" />
+    <ClInclude Include="DataBaseTool.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
